@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<com.hjb.tldxdy.view.SinusoidalWaveView-->
+        <!--android:id="@+id/ripple_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp" />-->
+    <!---->
+    <!--<com.hjb.tldxdy.view.TimeSetView-->
+        <!--android:id="@+id/tsv_view"-->
+        <!--android:layout_width="135dp"-->
+        <!--android:layout_height="135dp" />-->
+
+    <com.hjb.tldxdy.view.ScoreProgressView
+        android:id="@+id/spv"
+        android:layout_width="160dp"
+        android:layout_height="160dp" />
+
+</LinearLayout>
